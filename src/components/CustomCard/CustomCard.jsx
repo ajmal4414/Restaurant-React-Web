@@ -37,7 +37,7 @@ const DishBox = styled(Box)(({theme})=>({
     return(
         <DishBox>
             <ImgContainerBox>
-            <img src={img} alt="housephoto" style={{maxWidth:"100%"}}/>
+            <img src={img} alt="housePhoto" style={{maxWidth:"100%"}}/>
             </ImgContainerBox>
 
             <Box sx={{padding:"1rem"}}>
@@ -57,19 +57,19 @@ const DishBox = styled(Box)(({theme})=>({
             }}>
 
             <InfoBox>
-            <img src={likeIcon} alt="likeicon"/>
+            <img src={likeIcon} alt="likeIcon"/>
             <Typography variant="body2" sx={{mt:1}}>
                 {likes}
             </Typography>
             </InfoBox>
             <InfoBox>
-            <img src={heartIcon} alt="hearticon"/>
+            <img src={heartIcon} alt="heartIcon"/>
             <Typography variant="body2" sx={{mt:1}}>
                 {heart}
             </Typography>
             </InfoBox>
             <InfoBox>
-                <img src={shareIcon} alt="shareicon"/>
+                <img src={shareIcon} alt="shareIcon"/>
                 <Typography variant="body2" sx={{mt:1}}>
                     {share}
                 </Typography>

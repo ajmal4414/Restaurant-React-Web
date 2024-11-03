@@ -10,10 +10,11 @@ const Login = ()=>{
 const LoginForm = styled("input")(({theme})=>({
     fontSize:"15px",
     width:"100%",
+    textAlign:"center",
     borderColor:"transparent",
-    marginTop:[theme.spacing(3)],
-    marginBottom:[theme.spacing(1)],
-    padding: [theme.spacing(2)]
+    marginTop:theme.spacing(3),
+    marginBottom:theme.spacing(1),
+    padding: theme.spacing(2)
 }))
 
     return(
@@ -22,9 +23,7 @@ const LoginForm = styled("input")(({theme})=>({
                   justifyContent:"center",
                   padding:"40px"  }}>
 
-        <Box sx={{
-            alignItems:"center"
-        }}>
+        <Box >
 
         <Typography sx={{
             textAlign:"center",
@@ -48,7 +47,6 @@ const LoginForm = styled("input")(({theme})=>({
             color= "#fff"
             backgroundColor="#000339"
             buttonText="Login"  
-            paddingLeft="300px"  
             margin = "0 auto"
 
              />

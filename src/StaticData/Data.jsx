@@ -1,4 +1,4 @@
-import Food1 from '../assets/Food1.jpg';
+ import Food1 from '../assets/Food1.jpg';
 import Food2 from '../assets/Food2.jpg';
 import Food3 from '../assets/Food3.jpeg';
 

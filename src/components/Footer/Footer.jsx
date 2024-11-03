@@ -63,9 +63,9 @@ const footer_overview_link=[{
 },
 {
     path:'/' , display:"Terms of use & Privacy Policies"
-}
+},
 
-]
+];
     return(
         <Box sx={{py: 10, backgroundColor:"#FFF682"}}>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {styled} from '@mui/system';
 import {Box, Typography} from '@mui/material';
-import BuyIcon from '../../assets/buy_icon.png';
+import buyIcon from '../../assets/buy_icon.png';
 import sellIcon from '../../assets/sell_icon.png';
 import rentIcon from '../../assets/sell_icon.png';
 
@@ -14,7 +14,7 @@ const Booking = ()=>{
         id:1,
         title:"Order Guides",
         text:"How to order",
-        img:BuyIcon
+        img:buyIcon
         
     },
     {
@@ -107,7 +107,7 @@ const Booking = ()=>{
         {
             guide_content.map((item,id)=>(
                 <GuideBox key={id}>
-                <img src={item.img} alt="guideimg"/>
+                <img src={item.img} alt="guideImg"/>
         
 
                 <Typography variant="body2"

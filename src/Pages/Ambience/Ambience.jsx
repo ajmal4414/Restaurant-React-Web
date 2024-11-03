@@ -1,6 +1,6 @@
 import React from 'react';
-import {Box, Typography} from '@mui/material';
-import {styled, Container} from '@mui/system';
+import {Box, Typography, Container} from '@mui/material';
+import {styled} from '@mui/system';
 import houseCard from '../../assets/ambience.jpg';
 
 const Ambience=()=>{
@@ -71,7 +71,7 @@ const SmallTextTypography = styled(Typography)(({theme})=>({
         <Container>
             <CustomBox>
         <ImgContainerBox>
-            <img src={houseCard} alt="ambienceimg" style={{maxWidth:"100%"}}/>
+            <img src={houseCard} alt="ambienceImg" style={{maxWidth:"100%"}}/>
         </ImgContainerBox>
 
         <Box>

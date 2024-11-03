@@ -25,7 +25,7 @@ function Header(){
 const [mobileMenu, setMobileMenu]= useState({left:false})
 
 const toggleDrawer=(anchor,open)=>(event)=>{
-    if (event.target ==="keydown" && (event.target === "Tab" || event.target==="Shift")){
+    if (event.target ==="keydown" && (event.target === "Tab" || event.target === "Shift")){
         return;
 }
 
@@ -204,7 +204,7 @@ const SignupButton = styled(Button)(({theme})=>({
               >
                 {list("left")}
               </Drawer>
-            <NavBarLogo src={logoImg} alt="logoimg"/>
+            <NavBarLogo src={logoImg} alt="logoImg"/>
             </Box>
             <NavBarLinksBox
             >

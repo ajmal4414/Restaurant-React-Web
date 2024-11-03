@@ -8,7 +8,8 @@ const SignupForm = styled("input")(({theme})=>({
     padding:"15px",
     width:"100%",
     margin:"0 auto",
-    mt:3,
+    textAlign:"center",
+    mt:4,
     borderColor:"transparent"
 }))
 
@@ -40,11 +41,11 @@ const SignupForm = styled("input")(({theme})=>({
             <SignupForm type="text" placeholder="Enter a Username"/><br/>
             <SignupForm type="email" placeholder="Enter a email"/><br/>
             <SignupForm type="password" placeholder="Enter a password"/><br/>
-            <SignupForm type="password" placeholder="confirm password"/><br/>
+            <SignupForm type="password" placeholder="Confirm password"/><br/>
                 
                 <br/>
             <CustomButton
-                backgroundColor="#0F1B4C"
+              backgroundColor="#0F1B4C"
               color="#fff"
               buttonText="Sign Up"
               margin = "0 auto"
